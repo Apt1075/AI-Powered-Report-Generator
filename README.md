@@ -15,14 +15,4 @@ This is the **backend** for the AI-Powered Shipment Report Generator — a FastA
 
 ---
 
-## 📁 Folder Structure
 
-├── main.py # Entry point for FastAPI app
-├── db.py # MongoDB connection logic
-├── query_builder.py # Converts NLP output to MongoDB query
-├── nlp_model.py # Loads and uses FLAN-T5 model
-├── schema.py # Pydantic models for request/response
-├── sample_data.json # Sample shipment data for testing
-├── .env # Environment variables (Mongo URI, etc.)
-├── requirements.txt # Python dependencies
-└── README.md # This file

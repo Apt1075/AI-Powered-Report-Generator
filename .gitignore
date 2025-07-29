@@ -1,0 +1,43 @@
+# ----------------------
+# Python cache & build
+# ----------------------
+__pycache__/
+*.py[cod]
+*.so
+
+# ----------------------
+# Virtual Environment
+# ----------------------
+app/venv/
+venv/
+ENV/
+env/
+
+# ----------------------
+# Environment variables
+# ----------------------
+*.env
+
+# ----------------------
+# OS / Editor junk
+# ----------------------
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ----------------------
+# Logs and test coverage
+# ----------------------
+*.log
+coverage/
+htmlcov/
+
+# ----------------------
+# PyInstaller
+# ----------------------
+*.spec
+dist/
+build/
